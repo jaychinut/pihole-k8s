@@ -1,23 +1,23 @@
 # pihole-k8s
 
 ## Table of Contents
-- [Pihole-on-Microk8s](#pihole on microk8s kubernetes)
-- [StorageClass](#Storage Class)
-- [PVC](#Persistent Volume Claims)
-- [PV](#Persistent Volumes)
+- [Pihole-on-Microk8s](#Pihole-on-Microk8s)
+- [StorageClass](#StorageClass)
+- [PVC](#PVC)
+- [PV](#PV)
 - [Service](#Service)
 - [Deployment](#Deployment)
 
-## Pihole on MicroK8s Kubernetes
+## Pihole-on-Microk8s
 MicroK8s Cluster
 First you should have a Kubernetes cluster up and running.  For this example, I am running microk8s on ubuntu.
 
 All the necessary YAML files are on Github. https://github.com/jaychinut/pihole-k8s
 
-## Storage Class
+## StorageClass
 kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/storageclass.yaml"
 
-## Persistent Volume Claims
+## PVC
 dnsmasq persistent volume claim
 
 kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/claim-dnsmasq.yaml"
@@ -26,7 +26,7 @@ etc persistent volume claim
 
 kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/claim-etc.yaml"
 
-## Persistent Volumes
+## PV
 volume dnsmasq
 
 kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/volume-dnsmasq.yaml"
