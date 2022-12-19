@@ -6,6 +6,7 @@
 #All the necessary YAML files are on Github. https://github.com/jaychinut/pihole-k8s
 
 #Storage Class#
+
 kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/storageclass.yaml"
 
 #Persistent Volume Claims
