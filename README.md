@@ -38,6 +38,7 @@ persistent volume etc
 ## Service
 
 `kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/service.yaml"`
+
 I changed the port to 5000 and used my ubuntu host as the externalIP
 
 ## Deployment
