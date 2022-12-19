@@ -27,11 +27,11 @@ etc persistent volume claim
 kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/claim-etc.yaml"
 
 ## PV
-volume dnsmasq
+persistent volume dnsmasq
 
 kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/volume-dnsmasq.yaml"
 
-volume etc
+persistent volume etc
 
 kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/volume-etc.yaml"
 
