@@ -50,4 +50,4 @@ I changed the port to 5000 and used my ubuntu host as the externalIP
 
 I changed the WEBPASSWORD value to something else.
 In this YAML file, I'm declaring the latest version of the pihole image, you can use a different tag for the version you need.
-image: pihole/pihole:<TAG>
+image: pihole/pihole:/<TAG/>
