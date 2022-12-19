@@ -14,6 +14,9 @@ First you should have a Kubernetes cluster up and running.  For this example, I 
 
 All the necessary YAML files are on Github. https://github.com/jaychinut/pihole-k8s
 
+StorageClass,PVC,PV sections are all to related to Persistent Volumes.  See official Kubernertes documentation regarding this topic.
+https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+
 ## StorageClass
 `kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/storageclass.yaml"`
 
