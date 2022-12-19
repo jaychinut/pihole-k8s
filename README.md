@@ -43,8 +43,5 @@ I changed the port to 5000 and used my ubuntu host as the externalIP
 ## Deployment
 
 `kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/deployment.yaml"`
-<<<<<<< HEAD
+
 I changed the WEBPASSWORD value to something else.
-=======
-I changed the WEBPASSWORD value to something else. This deployment has 1 replica as it doesn't need to scale for my use case.
->>>>>>> 87a1f5c (modified README.md)
