@@ -20,29 +20,29 @@ All the necessary YAML files are on Github. https://github.com/jaychinut/pihole-
 ## PVC
 dnsmasq persistent volume claim
 
-kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/claim-dnsmasq.yaml"
+`kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/claim-dnsmasq.yaml"`
 
 etc persistent volume claim
 
-kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/claim-etc.yaml"
+`kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/claim-etc.yaml"`
 
 ## PV
 persistent volume dnsmasq
 
-kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/volume-dnsmasq.yaml"
+`kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/volume-dnsmasq.yaml"`
 
 persistent volume etc
 
-kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/volume-etc.yaml"
+`kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/volume-etc.yaml"`
 
 ## Service
 
-kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/service.yaml"
+`kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/service.yaml"`
 I changed the port to 5000 and used my ubuntu host as the externalIP
 
 ## Deployment
 
-kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/deployment.yaml"
+`kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/deployment.yaml"`
 <<<<<<< HEAD
 I changed the WEBPASSWORD value to something else.
 =======
