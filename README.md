@@ -5,7 +5,7 @@ First you should have a Kubernetes cluster up and running.  For this example, I 
 
 All the necessary YAML files are on Github. https://github.com/jaychinut/pihole-k8s
 
-Storage Class
+*Storage Class*
 kubectl apply -f "https://github.com/jaychinut/pihole-k8s/blob/main/storageclass.yaml"
 
 Persistent Volume Claims
